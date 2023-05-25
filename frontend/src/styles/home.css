@@ -1,0 +1,188 @@
+/* Hero section */
+.hero-section {
+  background-image: url('C:\Users\ysona\OneDrive\Desktop\PBL frontend\MernStack-Tour-Management\tour-management\frontend\src\assets\images\pexels-asad-photo-maldives-1483053.jpg');
+  /* background-image: url('C:\Users\ysona\OneDrive\Desktop\PBL frontend\MernStack-Tour-Management\tour-management\frontend\src\assets\images\hero-img01.jpg');  */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.hero-content {
+  margin-top: 25vh;
+  color: #fff;
+}
+
+.hero_subtitle {
+  border-radius: 50px;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.hero_subtitle img {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hero-content .highlight {
+  color: #ff8300;
+}
+
+.hero-content p {
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hero_subtitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.hero_subtitle img {
+  margin-left: 10px;
+}
+
+.hero_subtitle h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #f57c00;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+.hero_subtitle img {
+  width: 4rem;
+  height: 4rem;
+}
+.hero_content h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: var(--heading-color);
+}
+
+.hero_content h1 .highlight {
+  color: orange;
+}
+.hero_content p {
+  font-size: 3rem;
+  line-height: 2rem;
+}
+
+.hero_img-box img,
+.hero_img-box video {
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  object-fit: cover;
+}
+
+.hero_content {
+  padding-top: 3.5rem;
+}
+
+.hero_img-box {
+  padding-top: 11rem;
+}
+
+.hero_subtitle {
+  color: black;
+}
+
+.hero_subtitle span {
+  color: orange;
+}
+
+.services_subtitle {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #ee6e6e;
+  font-family: inherit;
+}
+
+.services_title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.featured_tours-title {
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.experience_content h2 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.experience_content p {
+  font-size: 1.1rem;
+  color: black;
+  margin-top: 1rem;
+}
+.counter_wrapper {
+  margin-top: 2.5rem;
+}
+
+.counter_box span {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: orange;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 10px 5px 10px 5px;
+}
+
+.counter_box h6 {
+  font-size: 1.1rem;
+  margin-top: 0.7rem;
+  color: black;
+}
+
+.experience_img img {
+  width: 90%;
+}
+
+.gallery_title {
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-top: 1rem;
+}
+
+.masonry_img {
+  transition: 0.3s;
+}
+.masonry_img:hover {
+  transform: scale(1.1);
+}
+
+.testimonial_title {
+  font-size: 2.5rem;
+  /* margin-bottom: 2.5rem; */
+  margin-top: 1rem;
+}
